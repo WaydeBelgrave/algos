@@ -70,9 +70,9 @@ int main()
 
 int linearSearch(auto data, auto key)
 {
-	for(int i=0; i < Data.size(); i++)
+	for(int i=0; i < data.size(); i++)
 	{
-		if (Data[i] == key)
+		if (data[i] == key)
 		{
 			return i;
 		}
